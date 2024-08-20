@@ -1,0 +1,117 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+/*free shipping title design*/
+.title{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 13px 0px;
+    text-align: center;
+}
+/* final free shipping title design*/
+
+/* nav aligne img et ul*2 */
+.principal_container{
+       background-color: #0e0e0eed;
+       display: flex;
+       flex-direction: row;
+       justify-content:space-around;
+       align-items:center;
+       padding: 13px 0px;
+       position:sticky;
+       top:0;
+}
+/*  final nav aligne img et ul*2 */
+
+/*aligne contenue de ol */
+.container{
+    display: flex;
+    flex-direction: row;
+}
+/* final  d aligne conetenue ol*/
+.container ol{
+    color: white;
+}
+
+
+/*when i touch text of ol change color yellow and underline color of yellow*/
+.container.collection ol {
+    /*padding: 10px;*/
+    color: white;
+    cursor: pointer;
+  }
+.container.collection ol:hover {
+    color: yellow;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+  }
+/*design image for show*/
+.image{
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:25px;
+    background-color:#0e0e0eed;
+    display:none;
+    padding-bottom: 20px;
+    width:100%;
+}
+.image img{
+    width: 300px;
+    /*hide the image */
+}
+.final_image{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    padding-left: 100px;
+    background-color: #0e0e0eed;
+    display: none;
+}
+.final_image img{
+    width:17%;
+    object-fit: cover;
+    height: 350px;
+}
+.model{
+    background-image: url("model.png");
+    object-fit: cover;
+    height:750px;
+    width: 100%;
+}
+.model p{
+    margin:0px;
+    color:white;
+    padding-top: 300px;
+    text-align: center;
+    font-size: 25px;
+}
+.model h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin: 15px;
+}
+button {
+    padding: 15px;
+    border-radius: 10px;
+    width: 170px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.boutton{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-left: 570px;
+    font-family: system-ui;
+}
+.boutton button:hover {
+    background-color: black;
+    color: white;
+}
